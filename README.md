@@ -10,10 +10,9 @@ This is a short summary of the solutions for the problems provided in the task, 
 The main files to be run for the three sections are - 
 1. "main_sp_part1.py"
 2. "main_csp_part2.py"
-3. "main_rl_part3.py"
-   <br />
+3. "main_rl_part3.py"<br />
 
-1. **Shortest-Path** - "main_sp_part1.py"
+## Part 1 - **Shortest-Path** - "main_sp_part1.py"
 ![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/4f2656e6-d38d-4b58-af17-49229e998a88)
 This was the instance of the graph provided in "exercise_baseline.json". The shortest path algorithms are developed as methods to the Graph object. Please run ""**main_sp_part1.py**" for the folling sections.
 ##### a) Shortest path between any two vertices - graph.shortest_path_source_to_dest(src = 'co', dest = 'wr', export_output = True, show_output = True)
