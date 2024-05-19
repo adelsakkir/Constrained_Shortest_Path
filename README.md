@@ -53,6 +53,6 @@ An offline reinforment learning algorithm is implemented with fitted Q iteration
 We observe the following on 10 runs of the reinforcement learning algorithm. We obtain an average total transit time of - **102716.32** for the offline DQN algorithm. 
 1) MILP (Optimal) - **103806.2**
 2) Greedy (Baseline) - **103806.2**
-3) Offline DQN (Average) - **102716.32**
+3) Offline DQN (Average) - **102716.32** <br/>
 ![results_picture](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/c4e615d1-5b2d-4c63-8e24-cdc607b0603f)
 
