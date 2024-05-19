@@ -1,0 +1,761 @@
+{
+    "nodes": [
+        "cf",
+        "yk",
+        "lg",
+        "hp",
+        "mc",
+        "ec",
+        "wz",
+        "zq",
+        "bs",
+        "rc",
+        "qx",
+        "lw",
+        "jm",
+        "bw",
+        "ux",
+        "kg",
+        "mw",
+        "co",
+        "ps",
+        "js",
+        "wr",
+        "dq",
+        "ek",
+        "gu",
+        "am",
+        "sg",
+        "mr",
+        "pm",
+        "sv",
+        "pk",
+        "yh",
+        "yv",
+        "if",
+        "gl",
+        "cw",
+        "od",
+        "bt",
+        "hg",
+        "zr"
+    ],
+    "edges": [
+        {
+            "from": "co",
+            "to": "cw",
+            "transit_time": 51,
+            "capacity": 55
+        },
+        {
+            "from": "jm",
+            "to": "am",
+            "transit_time": 60,
+            "capacity": 75
+        },
+        {
+            "from": "mw",
+            "to": "gl",
+            "transit_time": 48,
+            "capacity": 25
+        },
+        {
+            "from": "sg",
+            "to": "wr",
+            "transit_time": 66,
+            "capacity": 45
+        },
+        {
+            "from": "ux",
+            "to": "hp",
+            "transit_time": 31,
+            "capacity": 70
+        },
+        {
+            "from": "co",
+            "to": "gl",
+            "transit_time": 82,
+            "capacity": 70
+        },
+        {
+            "from": "ek",
+            "to": "js",
+            "transit_time": 78,
+            "capacity": 75
+        },
+        {
+            "from": "zq",
+            "to": "kg",
+            "transit_time": 75,
+            "capacity": 65
+        },
+        {
+            "from": "zr",
+            "to": "yh",
+            "transit_time": 47,
+            "capacity": 25
+        },
+        {
+            "from": "qx",
+            "to": "am",
+            "transit_time": 99,
+            "capacity": 80
+        },
+        {
+            "from": "pk",
+            "to": "yk",
+            "transit_time": 69,
+            "capacity": 55
+        },
+        {
+            "from": "bt",
+            "to": "cf",
+            "transit_time": 64,
+            "capacity": 50
+        },
+        {
+            "from": "ux",
+            "to": "if",
+            "transit_time": 49,
+            "capacity": 85
+        },
+        {
+            "from": "yh",
+            "to": "lg",
+            "transit_time": 11,
+            "capacity": 70
+        },
+        {
+            "from": "qx",
+            "to": "wz",
+            "transit_time": 91,
+            "capacity": 40
+        },
+        {
+            "from": "ps",
+            "to": "bs",
+            "transit_time": 75,
+            "capacity": 95
+        },
+        {
+            "from": "ec",
+            "to": "od",
+            "transit_time": 89,
+            "capacity": 95
+        },
+        {
+            "from": "ps",
+            "to": "hg",
+            "transit_time": 50,
+            "capacity": 80
+        },
+        {
+            "from": "hp",
+            "to": "gu",
+            "transit_time": 86,
+            "capacity": 15
+        },
+        {
+            "from": "yv",
+            "to": "co",
+            "transit_time": 82,
+            "capacity": 30
+        },
+        {
+            "from": "lg",
+            "to": "bt",
+            "transit_time": 69,
+            "capacity": 20
+        },
+        {
+            "from": "qx",
+            "to": "pk",
+            "transit_time": 85,
+            "capacity": 15
+        },
+        {
+            "from": "gl",
+            "to": "dq",
+            "transit_time": 98,
+            "capacity": 60
+        },
+        {
+            "from": "mc",
+            "to": "lg",
+            "transit_time": 45,
+            "capacity": 25
+        },
+        {
+            "from": "gl",
+            "to": "ps",
+            "transit_time": 87,
+            "capacity": 60
+        },
+        {
+            "from": "cf",
+            "to": "mr",
+            "transit_time": 41,
+            "capacity": 70
+        },
+        {
+            "from": "hg",
+            "to": "mc",
+            "transit_time": 81,
+            "capacity": 70
+        },
+        {
+            "from": "js",
+            "to": "bt",
+            "transit_time": 43,
+            "capacity": 90
+        },
+        {
+            "from": "am",
+            "to": "od",
+            "transit_time": 43,
+            "capacity": 40
+        },
+        {
+            "from": "bw",
+            "to": "bs",
+            "transit_time": 94,
+            "capacity": 65
+        },
+        {
+            "from": "yh",
+            "to": "co",
+            "transit_time": 57,
+            "capacity": 50
+        },
+        {
+            "from": "dq",
+            "to": "hp",
+            "transit_time": 95,
+            "capacity": 70
+        },
+        {
+            "from": "cw",
+            "to": "mr",
+            "transit_time": 94,
+            "capacity": 25
+        },
+        {
+            "from": "od",
+            "to": "bw",
+            "transit_time": 42,
+            "capacity": 75
+        },
+        {
+            "from": "zq",
+            "to": "gl",
+            "transit_time": 82,
+            "capacity": 75
+        },
+        {
+            "from": "js",
+            "to": "bw",
+            "transit_time": 49,
+            "capacity": 80
+        },
+        {
+            "from": "gl",
+            "to": "hp",
+            "transit_time": 81,
+            "capacity": 80
+        },
+        {
+            "from": "co",
+            "to": "pm",
+            "transit_time": 41,
+            "capacity": 75
+        },
+        {
+            "from": "pm",
+            "to": "if",
+            "transit_time": 83,
+            "capacity": 20
+        },
+        {
+            "from": "qx",
+            "to": "gl",
+            "transit_time": 18,
+            "capacity": 15
+        },
+        {
+            "from": "mc",
+            "to": "yh",
+            "transit_time": 52,
+            "capacity": 65
+        },
+        {
+            "from": "jm",
+            "to": "if",
+            "transit_time": 31,
+            "capacity": 50
+        },
+        {
+            "from": "hp",
+            "to": "mc",
+            "transit_time": 46,
+            "capacity": 25
+        },
+        {
+            "from": "bs",
+            "to": "lw",
+            "transit_time": 99,
+            "capacity": 25
+        },
+        {
+            "from": "mw",
+            "to": "kg",
+            "transit_time": 99,
+            "capacity": 50
+        },
+        {
+            "from": "bs",
+            "to": "js",
+            "transit_time": 75,
+            "capacity": 50
+        },
+        {
+            "from": "zq",
+            "to": "js",
+            "transit_time": 93,
+            "capacity": 55
+        },
+        {
+            "from": "ux",
+            "to": "wz",
+            "transit_time": 88,
+            "capacity": 45
+        },
+        {
+            "from": "bw",
+            "to": "yv",
+            "transit_time": 12,
+            "capacity": 95
+        },
+        {
+            "from": "qx",
+            "to": "ec",
+            "transit_time": 13,
+            "capacity": 35
+        },
+        {
+            "from": "am",
+            "to": "bt",
+            "transit_time": 62,
+            "capacity": 60
+        },
+        {
+            "from": "co",
+            "to": "zr",
+            "transit_time": 77,
+            "capacity": 90
+        },
+        {
+            "from": "kg",
+            "to": "yv",
+            "transit_time": 99,
+            "capacity": 15
+        },
+        {
+            "from": "sg",
+            "to": "qx",
+            "transit_time": 90,
+            "capacity": 65
+        },
+        {
+            "from": "wz",
+            "to": "cw",
+            "transit_time": 86,
+            "capacity": 70
+        },
+        {
+            "from": "bs",
+            "to": "dq",
+            "transit_time": 72,
+            "capacity": 45
+        },
+        {
+            "from": "zq",
+            "to": "co",
+            "transit_time": 42,
+            "capacity": 40
+        },
+        {
+            "from": "pk",
+            "to": "js",
+            "transit_time": 49,
+            "capacity": 15
+        },
+        {
+            "from": "yk",
+            "to": "am",
+            "transit_time": 19,
+            "capacity": 30
+        },
+        {
+            "from": "hg",
+            "to": "yh",
+            "transit_time": 75,
+            "capacity": 50
+        },
+        {
+            "from": "bt",
+            "to": "hp",
+            "transit_time": 75,
+            "capacity": 40
+        },
+        {
+            "from": "js",
+            "to": "wz",
+            "transit_time": 45,
+            "capacity": 10
+        },
+        {
+            "from": "yh",
+            "to": "sg",
+            "transit_time": 89,
+            "capacity": 80
+        },
+        {
+            "from": "zq",
+            "to": "yv",
+            "transit_time": 97,
+            "capacity": 90
+        },
+        {
+            "from": "mc",
+            "to": "wz",
+            "transit_time": 92,
+            "capacity": 10
+        },
+        {
+            "from": "lg",
+            "to": "ek",
+            "transit_time": 99,
+            "capacity": 95
+        },
+        {
+            "from": "jm",
+            "to": "qx",
+            "transit_time": 10,
+            "capacity": 15
+        },
+        {
+            "from": "bw",
+            "to": "qx",
+            "transit_time": 39,
+            "capacity": 15
+        },
+        {
+            "from": "co",
+            "to": "ux",
+            "transit_time": 43,
+            "capacity": 90
+        },
+        {
+            "from": "yh",
+            "to": "bt",
+            "transit_time": 69,
+            "capacity": 35
+        },
+        {
+            "from": "mr",
+            "to": "ek",
+            "transit_time": 74,
+            "capacity": 85
+        },
+        {
+            "from": "bt",
+            "to": "ek",
+            "transit_time": 76,
+            "capacity": 75
+        },
+        {
+            "from": "yk",
+            "to": "jm",
+            "transit_time": 70,
+            "capacity": 85
+        },
+        {
+            "from": "hp",
+            "to": "yv",
+            "transit_time": 43,
+            "capacity": 20
+        },
+        {
+            "from": "cw",
+            "to": "ek",
+            "transit_time": 58,
+            "capacity": 90
+        },
+        {
+            "from": "qx",
+            "to": "if",
+            "transit_time": 98,
+            "capacity": 10
+        },
+        {
+            "from": "gl",
+            "to": "wr",
+            "transit_time": 16,
+            "capacity": 55
+        },
+        {
+            "from": "yk",
+            "to": "rc",
+            "transit_time": 75,
+            "capacity": 30
+        },
+        {
+            "from": "yv",
+            "to": "gl",
+            "transit_time": 78,
+            "capacity": 25
+        },
+        {
+            "from": "zr",
+            "to": "lw",
+            "transit_time": 86,
+            "capacity": 70
+        },
+        {
+            "from": "ux",
+            "to": "sg",
+            "transit_time": 89,
+            "capacity": 60
+        },
+        {
+            "from": "mw",
+            "to": "lg",
+            "transit_time": 61,
+            "capacity": 40
+        },
+        {
+            "from": "if",
+            "to": "cw",
+            "transit_time": 89,
+            "capacity": 70
+        },
+        {
+            "from": "mw",
+            "to": "bw",
+            "transit_time": 39,
+            "capacity": 15
+        },
+        {
+            "from": "gu",
+            "to": "zq",
+            "transit_time": 58,
+            "capacity": 80
+        },
+        {
+            "from": "bt",
+            "to": "wz",
+            "transit_time": 38,
+            "capacity": 5
+        },
+        {
+            "from": "lw",
+            "to": "yv",
+            "transit_time": 16,
+            "capacity": 95
+        },
+        {
+            "from": "bt",
+            "to": "wr",
+            "transit_time": 83,
+            "capacity": 10
+        },
+        {
+            "from": "yh",
+            "to": "bw",
+            "transit_time": 60,
+            "capacity": 10
+        },
+        {
+            "from": "bw",
+            "to": "kg",
+            "transit_time": 60,
+            "capacity": 75
+        },
+        {
+            "from": "yk",
+            "to": "cw",
+            "transit_time": 47,
+            "capacity": 10
+        },
+        {
+            "from": "lw",
+            "to": "if",
+            "transit_time": 99,
+            "capacity": 5
+        },
+        {
+            "from": "rc",
+            "to": "gl",
+            "transit_time": 33,
+            "capacity": 85
+        },
+        {
+            "from": "sv",
+            "to": "wr",
+            "transit_time": 74,
+            "capacity": 70
+        }
+    ],
+    "demands": [
+        {
+            "from": "lw",
+            "to": "cf",
+            "payload": 10.5
+        },
+        {
+            "from": "ux",
+            "to": "jm",
+            "payload": 10.5
+        },
+        {
+            "from": "zq",
+            "to": "lw",
+            "payload": 50.6
+        },
+        {
+            "from": "dq",
+            "to": "qx",
+            "payload": 25.1
+        },
+        {
+            "from": "cf",
+            "to": "co",
+            "payload": 50.6
+        },
+        {
+            "from": "pm",
+            "to": "gl",
+            "payload": 10.5
+        },
+        {
+            "from": "js",
+            "to": "yh",
+            "payload": 50.6
+        },
+        {
+            "from": "sg",
+            "to": "ek",
+            "payload": 2
+        },
+        {
+            "from": "yh",
+            "to": "rc",
+            "payload": 10.5
+        },
+        {
+            "from": "hg",
+            "to": "if",
+            "payload": 10.5
+        },
+        {
+            "from": "od",
+            "to": "if",
+            "payload": 2
+        },
+        {
+            "from": "am",
+            "to": "gu",
+            "payload": 2
+        },
+        {
+            "from": "wr",
+            "to": "am",
+            "payload": 2
+        },
+        {
+            "from": "js",
+            "to": "hg",
+            "payload": 25.1
+        },
+        {
+            "from": "zq",
+            "to": "wz",
+            "payload": 25.1
+        },
+        {
+            "from": "co",
+            "to": "jm",
+            "payload": 50.6
+        },
+        {
+            "from": "mc",
+            "to": "co",
+            "payload": 25.1
+        },
+        {
+            "from": "hp",
+            "to": "co",
+            "payload": 2
+        },
+        {
+            "from": "pm",
+            "to": "wz",
+            "payload": 2
+        },
+        {
+            "from": "mr",
+            "to": "dq",
+            "payload": 50.6
+        },
+        {
+            "from": "ec",
+            "to": "pm",
+            "payload": 25.1
+        },
+        {
+            "from": "rc",
+            "to": "sv",
+            "payload": 25.1
+        },
+        {
+            "from": "hp",
+            "to": "qx",
+            "payload": 50.6
+        },
+        {
+            "from": "jm",
+            "to": "hp",
+            "payload": 50.6
+        },
+        {
+            "from": "ek",
+            "to": "js",
+            "payload": 10.5
+        },
+        {
+            "from": "kg",
+            "to": "sg",
+            "payload": 25.1
+        },
+        {
+            "from": "hg",
+            "to": "am",
+            "payload": 10.5
+        },
+        {
+            "from": "zr",
+            "to": "js",
+            "payload": 10.5
+        },
+        {
+            "from": "lw",
+            "to": "gl",
+            "payload": 2
+        },
+        {
+            "from": "wr",
+            "to": "dq",
+            "payload": 10.5
+        }
+    ]
+}

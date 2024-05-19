@@ -1,0 +1,515 @@
+{
+    "nodes": [
+        "cf",
+        "yk",
+        "lg",
+        "hp",
+        "mc",
+        "ec",
+        "wz",
+        "zq",
+        "bs",
+        "rc",
+        "qx",
+        "lw",
+        "jm",
+        "bw",
+        "ux",
+        "kg",
+        "mw",
+        "co",
+        "ps",
+        "js",
+        "wr",
+        "dq",
+        "ek",
+        "gu",
+        "am",
+        "sg",
+        "mr",
+        "pm",
+        "sv",
+        "pk",
+        "yh",
+        "yv",
+        "if",
+        "gl",
+        "cw",
+        "od",
+        "bt",
+        "hg",
+        "zr"
+    ],
+    "edges": [
+        {
+            "from": "co",
+            "to": "cw",
+            "transit_time": 51
+        },
+        {
+            "from": "jm",
+            "to": "am",
+            "transit_time": 60
+        },
+        {
+            "from": "mw",
+            "to": "gl",
+            "transit_time": 48
+        },
+        {
+            "from": "sg",
+            "to": "wr",
+            "transit_time": 66
+        },
+        {
+            "from": "ux",
+            "to": "hp",
+            "transit_time": 31
+        },
+        {
+            "from": "co",
+            "to": "gl",
+            "transit_time": 82
+        },
+        {
+            "from": "ek",
+            "to": "js",
+            "transit_time": 78
+        },
+        {
+            "from": "zq",
+            "to": "kg",
+            "transit_time": 75
+        },
+        {
+            "from": "zr",
+            "to": "yh",
+            "transit_time": 47
+        },
+        {
+            "from": "qx",
+            "to": "am",
+            "transit_time": 99
+        },
+        {
+            "from": "pk",
+            "to": "yk",
+            "transit_time": 69
+        },
+        {
+            "from": "bt",
+            "to": "cf",
+            "transit_time": 64
+        },
+        {
+            "from": "ux",
+            "to": "if",
+            "transit_time": 49
+        },
+        {
+            "from": "yh",
+            "to": "lg",
+            "transit_time": 11
+        },
+        {
+            "from": "qx",
+            "to": "wz",
+            "transit_time": 91
+        },
+        {
+            "from": "ps",
+            "to": "bs",
+            "transit_time": 75
+        },
+        {
+            "from": "ec",
+            "to": "od",
+            "transit_time": 89
+        },
+        {
+            "from": "ps",
+            "to": "hg",
+            "transit_time": 50
+        },
+        {
+            "from": "hp",
+            "to": "gu",
+            "transit_time": 86
+        },
+        {
+            "from": "yv",
+            "to": "co",
+            "transit_time": 82
+        },
+        {
+            "from": "lg",
+            "to": "bt",
+            "transit_time": 69
+        },
+        {
+            "from": "qx",
+            "to": "pk",
+            "transit_time": 85
+        },
+        {
+            "from": "gl",
+            "to": "dq",
+            "transit_time": 98
+        },
+        {
+            "from": "mc",
+            "to": "lg",
+            "transit_time": 45
+        },
+        {
+            "from": "gl",
+            "to": "ps",
+            "transit_time": 87
+        },
+        {
+            "from": "cf",
+            "to": "mr",
+            "transit_time": 41
+        },
+        {
+            "from": "hg",
+            "to": "mc",
+            "transit_time": 81
+        },
+        {
+            "from": "js",
+            "to": "bt",
+            "transit_time": 43
+        },
+        {
+            "from": "am",
+            "to": "od",
+            "transit_time": 43
+        },
+        {
+            "from": "bw",
+            "to": "bs",
+            "transit_time": 94
+        },
+        {
+            "from": "yh",
+            "to": "co",
+            "transit_time": 57
+        },
+        {
+            "from": "dq",
+            "to": "hp",
+            "transit_time": 95
+        },
+        {
+            "from": "cw",
+            "to": "mr",
+            "transit_time": 94
+        },
+        {
+            "from": "od",
+            "to": "bw",
+            "transit_time": 42
+        },
+        {
+            "from": "zq",
+            "to": "gl",
+            "transit_time": 82
+        },
+        {
+            "from": "js",
+            "to": "bw",
+            "transit_time": 49
+        },
+        {
+            "from": "gl",
+            "to": "hp",
+            "transit_time": 81
+        },
+        {
+            "from": "co",
+            "to": "pm",
+            "transit_time": 41
+        },
+        {
+            "from": "pm",
+            "to": "if",
+            "transit_time": 83
+        },
+        {
+            "from": "qx",
+            "to": "gl",
+            "transit_time": 18
+        },
+        {
+            "from": "mc",
+            "to": "yh",
+            "transit_time": 52
+        },
+        {
+            "from": "jm",
+            "to": "if",
+            "transit_time": 31
+        },
+        {
+            "from": "hp",
+            "to": "mc",
+            "transit_time": 46
+        },
+        {
+            "from": "bs",
+            "to": "lw",
+            "transit_time": 99
+        },
+        {
+            "from": "mw",
+            "to": "kg",
+            "transit_time": 99
+        },
+        {
+            "from": "bs",
+            "to": "js",
+            "transit_time": 75
+        },
+        {
+            "from": "zq",
+            "to": "js",
+            "transit_time": 93
+        },
+        {
+            "from": "ux",
+            "to": "wz",
+            "transit_time": 88
+        },
+        {
+            "from": "bw",
+            "to": "yv",
+            "transit_time": 12
+        },
+        {
+            "from": "qx",
+            "to": "ec",
+            "transit_time": 13
+        },
+        {
+            "from": "am",
+            "to": "bt",
+            "transit_time": 62
+        },
+        {
+            "from": "co",
+            "to": "zr",
+            "transit_time": 77
+        },
+        {
+            "from": "kg",
+            "to": "yv",
+            "transit_time": 99
+        },
+        {
+            "from": "sg",
+            "to": "qx",
+            "transit_time": 90
+        },
+        {
+            "from": "wz",
+            "to": "cw",
+            "transit_time": 86
+        },
+        {
+            "from": "bs",
+            "to": "dq",
+            "transit_time": 72
+        },
+        {
+            "from": "zq",
+            "to": "co",
+            "transit_time": 42
+        },
+        {
+            "from": "pk",
+            "to": "js",
+            "transit_time": 49
+        },
+        {
+            "from": "yk",
+            "to": "am",
+            "transit_time": 19
+        },
+        {
+            "from": "hg",
+            "to": "yh",
+            "transit_time": 75
+        },
+        {
+            "from": "bt",
+            "to": "hp",
+            "transit_time": 75
+        },
+        {
+            "from": "js",
+            "to": "wz",
+            "transit_time": 45
+        },
+        {
+            "from": "yh",
+            "to": "sg",
+            "transit_time": 89
+        },
+        {
+            "from": "zq",
+            "to": "yv",
+            "transit_time": 97
+        },
+        {
+            "from": "mc",
+            "to": "wz",
+            "transit_time": 92
+        },
+        {
+            "from": "lg",
+            "to": "ek",
+            "transit_time": 99
+        },
+        {
+            "from": "jm",
+            "to": "qx",
+            "transit_time": 10
+        },
+        {
+            "from": "bw",
+            "to": "qx",
+            "transit_time": 39
+        },
+        {
+            "from": "co",
+            "to": "ux",
+            "transit_time": 43
+        },
+        {
+            "from": "yh",
+            "to": "bt",
+            "transit_time": 69
+        },
+        {
+            "from": "mr",
+            "to": "ek",
+            "transit_time": 74
+        },
+        {
+            "from": "bt",
+            "to": "ek",
+            "transit_time": 76
+        },
+        {
+            "from": "yk",
+            "to": "jm",
+            "transit_time": 70
+        },
+        {
+            "from": "hp",
+            "to": "yv",
+            "transit_time": 43
+        },
+        {
+            "from": "cw",
+            "to": "ek",
+            "transit_time": 58
+        },
+        {
+            "from": "qx",
+            "to": "if",
+            "transit_time": 98
+        },
+        {
+            "from": "gl",
+            "to": "wr",
+            "transit_time": 16
+        },
+        {
+            "from": "yk",
+            "to": "rc",
+            "transit_time": 75
+        },
+        {
+            "from": "yv",
+            "to": "gl",
+            "transit_time": 78
+        },
+        {
+            "from": "zr",
+            "to": "lw",
+            "transit_time": 86
+        },
+        {
+            "from": "ux",
+            "to": "sg",
+            "transit_time": 89
+        },
+        {
+            "from": "mw",
+            "to": "lg",
+            "transit_time": 61
+        },
+        {
+            "from": "if",
+            "to": "cw",
+            "transit_time": 89
+        },
+        {
+            "from": "mw",
+            "to": "bw",
+            "transit_time": 39
+        },
+        {
+            "from": "gu",
+            "to": "zq",
+            "transit_time": 58
+        },
+        {
+            "from": "bt",
+            "to": "wz",
+            "transit_time": 38
+        },
+        {
+            "from": "lw",
+            "to": "yv",
+            "transit_time": 16
+        },
+        {
+            "from": "bt",
+            "to": "wr",
+            "transit_time": 83
+        },
+        {
+            "from": "yh",
+            "to": "bw",
+            "transit_time": 60
+        },
+        {
+            "from": "bw",
+            "to": "kg",
+            "transit_time": 60
+        },
+        {
+            "from": "yk",
+            "to": "cw",
+            "transit_time": 47
+        },
+        {
+            "from": "lw",
+            "to": "if",
+            "transit_time": 99
+        },
+        {
+            "from": "rc",
+            "to": "gl",
+            "transit_time": 33
+        },
+        {
+            "from": "sv",
+            "to": "wr",
+            "transit_time": 74
+        }
+    ]
+}

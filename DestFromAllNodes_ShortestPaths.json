@@ -1,0 +1,314 @@
+{
+    "co": {
+        "route": [
+            "co"
+        ],
+        "transit_time": 0
+    },
+    "cw": {
+        "route": [
+            "cw",
+            "co"
+        ],
+        "transit_time": 51
+    },
+    "jm": {
+        "route": [
+            "jm",
+            "qx",
+            "gl",
+            "co"
+        ],
+        "transit_time": 110
+    },
+    "am": {
+        "route": [
+            "am",
+            "yk",
+            "cw",
+            "co"
+        ],
+        "transit_time": 117
+    },
+    "mw": {
+        "route": [
+            "mw",
+            "lg",
+            "yh",
+            "co"
+        ],
+        "transit_time": 129
+    },
+    "gl": {
+        "route": [
+            "gl",
+            "co"
+        ],
+        "transit_time": 82
+    },
+    "sg": {
+        "route": [
+            "sg",
+            "ux",
+            "co"
+        ],
+        "transit_time": 132
+    },
+    "wr": {
+        "route": [
+            "wr",
+            "gl",
+            "co"
+        ],
+        "transit_time": 98
+    },
+    "ux": {
+        "route": [
+            "ux",
+            "co"
+        ],
+        "transit_time": 43
+    },
+    "hp": {
+        "route": [
+            "hp",
+            "ux",
+            "co"
+        ],
+        "transit_time": 74
+    },
+    "ek": {
+        "route": [
+            "ek",
+            "cw",
+            "co"
+        ],
+        "transit_time": 109
+    },
+    "js": {
+        "route": [
+            "js",
+            "zq",
+            "co"
+        ],
+        "transit_time": 135
+    },
+    "zq": {
+        "route": [
+            "zq",
+            "co"
+        ],
+        "transit_time": 42
+    },
+    "kg": {
+        "route": [
+            "kg",
+            "zq",
+            "co"
+        ],
+        "transit_time": 117
+    },
+    "zr": {
+        "route": [
+            "zr",
+            "co"
+        ],
+        "transit_time": 77
+    },
+    "yh": {
+        "route": [
+            "yh",
+            "co"
+        ],
+        "transit_time": 57
+    },
+    "qx": {
+        "route": [
+            "qx",
+            "gl",
+            "co"
+        ],
+        "transit_time": 100
+    },
+    "pk": {
+        "route": [
+            "pk",
+            "yk",
+            "cw",
+            "co"
+        ],
+        "transit_time": 167
+    },
+    "yk": {
+        "route": [
+            "yk",
+            "cw",
+            "co"
+        ],
+        "transit_time": 98
+    },
+    "bt": {
+        "route": [
+            "bt",
+            "yh",
+            "co"
+        ],
+        "transit_time": 126
+    },
+    "cf": {
+        "route": [
+            "cf",
+            "mr",
+            "cw",
+            "co"
+        ],
+        "transit_time": 186
+    },
+    "if": {
+        "route": [
+            "if",
+            "ux",
+            "co"
+        ],
+        "transit_time": 92
+    },
+    "lg": {
+        "route": [
+            "lg",
+            "yh",
+            "co"
+        ],
+        "transit_time": 68
+    },
+    "wz": {
+        "route": [
+            "wz",
+            "ux",
+            "co"
+        ],
+        "transit_time": 131
+    },
+    "ps": {
+        "route": [
+            "ps",
+            "gl",
+            "co"
+        ],
+        "transit_time": 169
+    },
+    "bs": {
+        "route": [
+            "bs",
+            "bw",
+            "yv",
+            "co"
+        ],
+        "transit_time": 188
+    },
+    "ec": {
+        "route": [
+            "ec",
+            "qx",
+            "gl",
+            "co"
+        ],
+        "transit_time": 113
+    },
+    "od": {
+        "route": [
+            "od",
+            "bw",
+            "yv",
+            "co"
+        ],
+        "transit_time": 136
+    },
+    "hg": {
+        "route": [
+            "hg",
+            "yh",
+            "co"
+        ],
+        "transit_time": 132
+    },
+    "gu": {
+        "route": [
+            "gu",
+            "zq",
+            "co"
+        ],
+        "transit_time": 100
+    },
+    "yv": {
+        "route": [
+            "yv",
+            "co"
+        ],
+        "transit_time": 82
+    },
+    "dq": {
+        "route": [
+            "dq",
+            "hp",
+            "ux",
+            "co"
+        ],
+        "transit_time": 169
+    },
+    "mc": {
+        "route": [
+            "mc",
+            "yh",
+            "co"
+        ],
+        "transit_time": 109
+    },
+    "mr": {
+        "route": [
+            "mr",
+            "cw",
+            "co"
+        ],
+        "transit_time": 145
+    },
+    "bw": {
+        "route": [
+            "bw",
+            "yv",
+            "co"
+        ],
+        "transit_time": 94
+    },
+    "pm": {
+        "route": [
+            "pm",
+            "co"
+        ],
+        "transit_time": 41
+    },
+    "lw": {
+        "route": [
+            "lw",
+            "yv",
+            "co"
+        ],
+        "transit_time": 98
+    },
+    "rc": {
+        "route": [
+            "rc",
+            "gl",
+            "co"
+        ],
+        "transit_time": 115
+    },
+    "sv": {
+        "route": [
+            "sv",
+            "wr",
+            "gl",
+            "co"
+        ],
+        "transit_time": 172
+    }
+}
