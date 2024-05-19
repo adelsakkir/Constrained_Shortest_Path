@@ -31,12 +31,14 @@ Output exported to  - "AllPairs_ShortestPaths.json"<br />
 ##### e)	Test runs using randomly generated graphs - generate_graph(vertices, edges, show_graph_visual, size = (14,8), export_output= True)
 Random graphs are generated using the generate_graph(vertices, edges, show_graph_visual, size = (14,8), export_output= True) method in the "tools.py" script.<br />
 ![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/7fea9f5e-64ec-463a-86eb-44c8d1989f55) <br />
-The above is an example of a randomly generated graph with 12 vertices and 40 edges. The graph is exported to "RandomlyGenerated_Graph.json"
-
-
+The above is an example of a randomly generated graph with 12 vertices and 40 edges. The graph is exported to "RandomlyGenerated_Graph.json" <br/>
 Output exported to  - "AllPairs_ShortestPaths.json"<br />
-
-3. **Constrained Shortest-Path**
+## Part 2 - **Constrained Shortest Path** - "main_csp_part2.py"
+The constrained shortest path problem is solved with linear programming. The script "main_csp_part2.py" displays results for two separate methods for the same 
+1. A complete LP approach whose solutions is optimal
+![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/f870fc7a-54b1-43de-ac13-07d278f07971)
+This is a screenshot of the partial output of the algorithm. The total transit time comes to - **100954.6**. Each of the remaining below can be read as a demand from node A to node B of payload x is fulfilled through (Route1, Flow1), (Route2, Flow2), etc.The sum of all the flows will equal the total payload of the demand. 
+2. A greedy method by a sequential allocation of demand. 
 4. **Reinforcement Learning based shortest paths**
 
    
