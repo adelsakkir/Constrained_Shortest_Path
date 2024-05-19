@@ -57,7 +57,7 @@ while flag:
                 3. Vertices = 12, Edges = 40
                 4. Vertices = 10, Edges =8
                 5. Custom Input
-                 - """))
+                 - (Please enter integer 1-5)"""))
 
     if val == 5:
         vertices = int(input("Enter vertices - "))

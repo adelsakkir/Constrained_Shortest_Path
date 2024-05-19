@@ -1,286 +1,496 @@
 {
-    "ii": {
-        "ii": {
+    "lc": {
+        "lc": {
             "route": [
-                "ii"
-            ],
-            "transit_time": 0
-        },
-        "kc": {
-            "route": [
-                "ii",
-                "kc"
-            ],
-            "transit_time": 10
-        },
-        "bc": {
-            "route": [
-                "ii",
-                "kc",
-                "xa",
-                "bc"
-            ],
-            "transit_time": 85
-        },
-        "xa": {
-            "route": [
-                "ii",
-                "kc",
-                "xa"
-            ],
-            "transit_time": 20
-        },
-        "we": {
-            "route": [
-                "ii",
-                "kc",
-                "xa",
-                "bc",
-                "we"
-            ],
-            "transit_time": 108
-        },
-        "ni": {
-            "route": [
-                "ii",
-                "ni"
-            ],
-            "transit_time": 95
-        }
-    },
-    "kc": {
-        "ii": {
-            "route": [
-                "kc",
-                "ii"
-            ],
-            "transit_time": 10
-        },
-        "kc": {
-            "route": [
-                "kc"
+                "lc"
             ],
             "transit_time": 0
         },
         "bc": {
             "route": [
-                "kc",
-                "xa",
+                "lc",
                 "bc"
-            ],
-            "transit_time": 75
-        },
-        "xa": {
-            "route": [
-                "kc",
-                "xa"
             ],
             "transit_time": 10
         },
-        "we": {
+        "ga": {
             "route": [
-                "kc",
-                "xa",
-                "bc",
-                "we"
+                "lc",
+                "ga"
             ],
-            "transit_time": 98
+            "transit_time": 76
+        },
+        "kc": {
+            "route": [
+                "lc",
+                "kc"
+            ],
+            "transit_time": 21
         },
         "ni": {
             "route": [
-                "kc",
-                "ii",
+                "lc",
+                "bc",
                 "ni"
             ],
-            "transit_time": 105
+            "transit_time": 22
+        },
+        "we": {
+            "route": [
+                "lc",
+                "we"
+            ],
+            "transit_time": 31
+        },
+        "ii": {
+            "route": [
+                "lc",
+                "ii"
+            ],
+            "transit_time": 36
+        },
+        "xa": {
+            "route": [
+                "lc",
+                "bc",
+                "xa"
+            ],
+            "transit_time": 30
         }
     },
     "bc": {
-        "ii": {
+        "lc": {
             "route": [
                 "bc",
-                "xa",
-                "kc",
-                "ii"
-            ],
-            "transit_time": 85
-        },
-        "kc": {
-            "route": [
-                "bc",
-                "xa",
-                "kc"
-            ],
-            "transit_time": 75
-        },
-        "bc": {
-            "route": [
-                "bc"
-            ],
-            "transit_time": 0
-        },
-        "xa": {
-            "route": [
-                "bc",
-                "xa"
-            ],
-            "transit_time": 65
-        },
-        "we": {
-            "route": [
-                "bc",
-                "we"
-            ],
-            "transit_time": 23
-        },
-        "ni": {
-            "route": [
-                "bc",
-                "we",
-                "ni"
-            ],
-            "transit_time": 66
-        }
-    },
-    "xa": {
-        "ii": {
-            "route": [
-                "xa",
-                "kc",
-                "ii"
-            ],
-            "transit_time": 20
-        },
-        "kc": {
-            "route": [
-                "xa",
-                "kc"
+                "lc"
             ],
             "transit_time": 10
         },
         "bc": {
             "route": [
-                "xa",
                 "bc"
-            ],
-            "transit_time": 65
-        },
-        "xa": {
-            "route": [
-                "xa"
             ],
             "transit_time": 0
         },
-        "we": {
+        "ga": {
             "route": [
-                "xa",
                 "bc",
-                "we"
+                "ga"
             ],
-            "transit_time": 88
-        },
-        "ni": {
-            "route": [
-                "xa",
-                "kc",
-                "ii",
-                "ni"
-            ],
-            "transit_time": 115
-        }
-    },
-    "we": {
-        "ii": {
-            "route": [
-                "we",
-                "bc",
-                "xa",
-                "kc",
-                "ii"
-            ],
-            "transit_time": 108
+            "transit_time": 67
         },
         "kc": {
             "route": [
-                "we",
                 "bc",
-                "xa",
+                "lc",
                 "kc"
             ],
-            "transit_time": 98
+            "transit_time": 31
         },
-        "bc": {
+        "ni": {
             "route": [
-                "we",
-                "bc"
-            ],
-            "transit_time": 23
-        },
-        "xa": {
-            "route": [
-                "we",
                 "bc",
-                "xa"
+                "ni"
             ],
-            "transit_time": 88
+            "transit_time": 12
         },
         "we": {
             "route": [
+                "bc",
+                "lc",
                 "we"
+            ],
+            "transit_time": 41
+        },
+        "ii": {
+            "route": [
+                "bc",
+                "lc",
+                "ii"
+            ],
+            "transit_time": 46
+        },
+        "xa": {
+            "route": [
+                "bc",
+                "xa"
+            ],
+            "transit_time": 20
+        }
+    },
+    "ga": {
+        "lc": {
+            "route": [
+                "ga",
+                "lc"
+            ],
+            "transit_time": 76
+        },
+        "bc": {
+            "route": [
+                "ga",
+                "bc"
+            ],
+            "transit_time": 67
+        },
+        "ga": {
+            "route": [
+                "ga"
+            ],
+            "transit_time": 0
+        },
+        "kc": {
+            "route": [
+                "ga",
+                "kc"
+            ],
+            "transit_time": 68
+        },
+        "ni": {
+            "route": [
+                "ga",
+                "ni"
+            ],
+            "transit_time": 78
+        },
+        "we": {
+            "route": [
+                "ga",
+                "we"
+            ],
+            "transit_time": 83
+        },
+        "ii": {
+            "route": [
+                "ga",
+                "ii"
+            ],
+            "transit_time": 75
+        },
+        "xa": {
+            "route": [
+                "ga",
+                "bc",
+                "xa"
+            ],
+            "transit_time": 87
+        }
+    },
+    "kc": {
+        "lc": {
+            "route": [
+                "kc",
+                "lc"
+            ],
+            "transit_time": 21
+        },
+        "bc": {
+            "route": [
+                "kc",
+                "lc",
+                "bc"
+            ],
+            "transit_time": 31
+        },
+        "ga": {
+            "route": [
+                "kc",
+                "ga"
+            ],
+            "transit_time": 68
+        },
+        "kc": {
+            "route": [
+                "kc"
             ],
             "transit_time": 0
         },
         "ni": {
             "route": [
-                "we",
+                "kc",
+                "lc",
+                "bc",
                 "ni"
             ],
             "transit_time": 43
+        },
+        "we": {
+            "route": [
+                "kc",
+                "lc",
+                "we"
+            ],
+            "transit_time": 52
+        },
+        "ii": {
+            "route": [
+                "kc",
+                "lc",
+                "ii"
+            ],
+            "transit_time": 57
+        },
+        "xa": {
+            "route": [
+                "kc",
+                "lc",
+                "bc",
+                "xa"
+            ],
+            "transit_time": 51
         }
     },
     "ni": {
-        "ii": {
+        "lc": {
             "route": [
                 "ni",
-                "ii"
+                "bc",
+                "lc"
             ],
-            "transit_time": 95
-        },
-        "kc": {
-            "route": [
-                "ni",
-                "ii",
-                "kc"
-            ],
-            "transit_time": 105
+            "transit_time": 22
         },
         "bc": {
             "route": [
                 "ni",
-                "we",
                 "bc"
             ],
-            "transit_time": 66
+            "transit_time": 12
         },
-        "xa": {
+        "ga": {
             "route": [
                 "ni",
-                "ii",
-                "kc",
-                "xa"
+                "ga"
             ],
-            "transit_time": 115
+            "transit_time": 78
         },
-        "we": {
+        "kc": {
             "route": [
                 "ni",
-                "we"
+                "bc",
+                "lc",
+                "kc"
             ],
             "transit_time": 43
         },
         "ni": {
             "route": [
                 "ni"
+            ],
+            "transit_time": 0
+        },
+        "we": {
+            "route": [
+                "ni",
+                "bc",
+                "lc",
+                "we"
+            ],
+            "transit_time": 53
+        },
+        "ii": {
+            "route": [
+                "ni",
+                "bc",
+                "lc",
+                "ii"
+            ],
+            "transit_time": 58
+        },
+        "xa": {
+            "route": [
+                "ni",
+                "bc",
+                "xa"
+            ],
+            "transit_time": 32
+        }
+    },
+    "we": {
+        "lc": {
+            "route": [
+                "we",
+                "lc"
+            ],
+            "transit_time": 31
+        },
+        "bc": {
+            "route": [
+                "we",
+                "lc",
+                "bc"
+            ],
+            "transit_time": 41
+        },
+        "ga": {
+            "route": [
+                "we",
+                "ga"
+            ],
+            "transit_time": 83
+        },
+        "kc": {
+            "route": [
+                "we",
+                "lc",
+                "kc"
+            ],
+            "transit_time": 52
+        },
+        "ni": {
+            "route": [
+                "we",
+                "lc",
+                "bc",
+                "ni"
+            ],
+            "transit_time": 53
+        },
+        "we": {
+            "route": [
+                "we"
+            ],
+            "transit_time": 0
+        },
+        "ii": {
+            "route": [
+                "we",
+                "lc",
+                "ii"
+            ],
+            "transit_time": 67
+        },
+        "xa": {
+            "route": [
+                "we",
+                "lc",
+                "bc",
+                "xa"
+            ],
+            "transit_time": 61
+        }
+    },
+    "ii": {
+        "lc": {
+            "route": [
+                "ii",
+                "lc"
+            ],
+            "transit_time": 36
+        },
+        "bc": {
+            "route": [
+                "ii",
+                "lc",
+                "bc"
+            ],
+            "transit_time": 46
+        },
+        "ga": {
+            "route": [
+                "ii",
+                "ga"
+            ],
+            "transit_time": 75
+        },
+        "kc": {
+            "route": [
+                "ii",
+                "lc",
+                "kc"
+            ],
+            "transit_time": 57
+        },
+        "ni": {
+            "route": [
+                "ii",
+                "lc",
+                "bc",
+                "ni"
+            ],
+            "transit_time": 58
+        },
+        "we": {
+            "route": [
+                "ii",
+                "lc",
+                "we"
+            ],
+            "transit_time": 67
+        },
+        "ii": {
+            "route": [
+                "ii"
+            ],
+            "transit_time": 0
+        },
+        "xa": {
+            "route": [
+                "ii",
+                "xa"
+            ],
+            "transit_time": 49
+        }
+    },
+    "xa": {
+        "lc": {
+            "route": [
+                "xa",
+                "bc",
+                "lc"
+            ],
+            "transit_time": 30
+        },
+        "bc": {
+            "route": [
+                "xa",
+                "bc"
+            ],
+            "transit_time": 20
+        },
+        "ga": {
+            "route": [
+                "xa",
+                "bc",
+                "ga"
+            ],
+            "transit_time": 87
+        },
+        "kc": {
+            "route": [
+                "xa",
+                "bc",
+                "lc",
+                "kc"
+            ],
+            "transit_time": 51
+        },
+        "ni": {
+            "route": [
+                "xa",
+                "bc",
+                "ni"
+            ],
+            "transit_time": 32
+        },
+        "we": {
+            "route": [
+                "xa",
+                "bc",
+                "lc",
+                "we"
+            ],
+            "transit_time": 61
+        },
+        "ii": {
+            "route": [
+                "xa",
+                "ii"
+            ],
+            "transit_time": 49
+        },
+        "xa": {
+            "route": [
+                "xa"
             ],
             "transit_time": 0
         }
