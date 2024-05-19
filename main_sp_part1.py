@@ -70,7 +70,7 @@ while flag:
     print("\nRandomly Generated graph instance - ", i)
     i+=1
     print("Vertices - ", vertices, ", Edges - ", edges)
-    new_graph = generate_graph(vertices = vertices, edges = edges, show_graph_visual =True, size = (6,6))
+    new_graph = generate_graph(vertices = vertices, edges = edges, show_graph_visual =True, size = (6,6), export_output= True)
     if new_graph:
         graph = Graph(len(new_graph["nodes"]))
         for edge in new_graph["edges"]:
