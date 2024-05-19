@@ -1,6 +1,16 @@
 # Maersk technical assessment - Adel Sakkir 2024
 
-This is a short summary of the solutions for the problems provided in the task, instructions to run files and results of obtained.
+This is a short summary of the solutions for the problems provided in the task, instructions to run files and results of obtained. The problem is solved through the implementation of the following scripts - 
+1. tools.py
+2. graph_classes.py
+3. agents.py
+4. environments.py
+5. custom_data_structures.py
+
+The main files to be run for the three sections are - 
+1. "main_sp_part1.py"
+2. "main_csp_part2.py"
+3. "main_rl_part3.py"
 
 1. **Shortest-Path** - "main_sp_part1.py"
 ![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/4f2656e6-d38d-4b58-af17-49229e998a88)
@@ -17,6 +27,9 @@ Output exported to  - "DestFromAllNodes_ShortestPaths.json"<br />
 Output exported to  - "SrcToAllNodes_ShortestPaths.json"<br />
 ##### d)	Shortest paths between every pair of vertices - graph.shortest_path_all_pairs(export_output = True, show_output = False)<br />
 Output hidden. Please run ""main_sp_part1.py" to see the output of the all pairs shortest paths algorithm.<br />
+Output exported to  - "AllPairs_ShortestPaths.json"<br />
+##### e)	Test runs using randomly generated graphs
+Random graphs are generated using the generate_graph(vertices, edges, show_graph_visual, size = (14,8), export_output= False) method in the "tools.py" script.<br />
 Output exported to  - "AllPairs_ShortestPaths.json"<br />
 
 3. **Constrained Shortest-Path**
