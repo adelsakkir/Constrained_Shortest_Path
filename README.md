@@ -14,7 +14,7 @@ The main files to be run for the three sections are -
 
 ## Part 1 - **Shortest-Path** - "main_sp_part1.py"
 ![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/4f2656e6-d38d-4b58-af17-49229e998a88)
-This was the instance of the graph provided in "exercise_baseline.json". The shortest path algorithms are developed as methods to the Graph object. Please run ""**main_sp_part1.py**" for the folling sections.
+This was the instance of the graph provided in "exercise_baseline.json". The shortest path algorithms are developed as methods to the Graph object. Please run ""**main_sp_part1.py**" for the following sections.
 ##### a) Shortest path between any two vertices - graph.shortest_path_source_to_dest(src = 'co', dest = 'wr', export_output = True, show_output = True)
 ![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/bce2266a-b544-43e1-933a-375e50d87486)
 
@@ -33,7 +33,10 @@ Random graphs are generated using the generate_graph(vertices, edges, show_graph
 ![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/7fea9f5e-64ec-463a-86eb-44c8d1989f55) <br />
 The above is an example of a randomly generated graph with 12 vertices and 40 edges. The graph is exported to "RandomlyGenerated_Graph.json" <br/>
 Output exported to  - "AllPairs_ShortestPaths.json"<br />
+
 ## Part 2 - **Constrained Shortest Path** - "main_csp_part2.py"
+![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/5f585074-0e52-4f20-8be1-f08bfe25cf52)
+This was the instance of the graph provided in "exercise_bonus.json".
 The constrained shortest path problem is solved with linear programming. The script "main_csp_part2.py" displays results for two separate methods for the same 
 1. A complete LP approach whose solutions is optimal
 ![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/f870fc7a-54b1-43de-ac13-07d278f07971)
