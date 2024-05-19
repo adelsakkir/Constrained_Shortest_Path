@@ -36,7 +36,7 @@ for edge in data_2["edges"]:
 
 graph.add_supply(data_2["demands"])
 
-visualise_graph(data_2, size =(14, 8))
+##visualise_graph(data_2, size =(14, 8))
 
 print("\nGenerating Routes for given demand using an Greedy Agent through the RL enviroment")
 graph.rl_greedy(show_output = True, export_output = True)

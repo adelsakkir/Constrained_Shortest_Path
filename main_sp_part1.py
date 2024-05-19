@@ -42,3 +42,51 @@ graph.shortest_path_source_to_dest(src = 'co', dest = 'wr', export_output = True
 print("\nPlease find below the shortest paths from all nodes to a given destination")
 graph.shortest_path_dest_from_all_nodes(dest = 'co', export_output = True, show_output = True)
 graph.shortest_path_all_pairs(export_output = True, show_output = False)
+
+
+#Testing on Randomly Generated graphs
+Tests = [(6, 7), (8,15), (12, 40), (10,8)]
+i= 1
+
+flag = True
+while flag:
+    val = int(input("""We will now run the shortest path algorithm on random Graph instances.
+    Please choose from the below options -
+                1. Vertices = 6, Edges = 12
+                2. Vertices = 8, Edges =15
+                3. Vertices = 12, Edges = 40
+                4. Vertices = 10, Edges =8
+                5. Custom Input
+                 - """))
+
+    if val == 5:
+        vertices = int(input("Enter vertices - "))
+        edges = int(input("Enter Edges - "))
+    else:
+        vertices = Tests[val-1][0]
+        edges = Tests[val-1][1]
+        
+    random.seed(123)
+    print("\nRandomly Generated graph instance - ", i)
+    i+=1
+    print("Vertices - ", vertices, ", Edges - ", edges)
+    new_graph = generate_graph(vertices = vertices, edges = edges, show_graph_visual =True, size = (6,6))
+    if new_graph:
+        graph = Graph(len(new_graph["nodes"]))
+        for edge in new_graph["edges"]:
+            # print(edge)
+            graph.addEdge(edge["from"], edge["to"], edge["transit_time"])
+        
+        print("\nShortest Path from source to all nodes")
+        graph.shortest_path_source_to_all_nodes(src = 'ni', show_output = True, export_output = False)
+        print("\nShortest Path from source to destination")
+        graph.shortest_path_source_to_dest(src = 'ni', dest = 'kc', show_output = True, export_output = False)
+        print("\nShortest Path from all nodes to destination")
+        graph.shortest_path_dest_from_all_nodes(dest = 'kc', show_output = True, export_output = False)
+        graph.shortest_path_all_pairs(export_output = True, show_output = False)
+
+    check = input("Would you like to try another instance? (yes/no)- ")
+    if check in ["yes", "Yes", "y"]:
+        flag = True
+    else:
+        flag = False

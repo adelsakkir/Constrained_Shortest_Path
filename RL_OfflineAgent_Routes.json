@@ -1,1 +1,663 @@
-{"0": {"from": "lw", "to": "cf", "payload": 10.5, "routes": [[["lw", "yv", "bw", "js", "bt", "cf"], 10.5]]}, "1": {"from": "ux", "to": "jm", "payload": 10.5, "routes": [[["ux", "if", "jm"], 10.5]]}, "2": {"from": "zq", "to": "lw", "payload": 50.6, "routes": [[["zq", "yv", "lw"], 50.6]]}, "3": {"from": "dq", "to": "qx", "payload": 25.1, "routes": [[["dq", "gl", "wr", "sg", "qx"], 25.1]]}, "4": {"from": "cf", "to": "co", "payload": 50.6, "routes": [[["cf", "mr", "ek", "cw", "co"], 25.600000000000005], [["cf", "mr", "cw", "co"], 25.0]]}, "5": {"from": "pm", "to": "gl", "payload": 10.5, "routes": [[["pm", "co", "gl"], 10.5]]}, "6": {"from": "js", "to": "yh", "payload": 50.6, "routes": [[["js", "bt", "yh"], 35.0], [["js", "bt", "lg", "yh"], 15.600000000000003]]}, "7": {"from": "sg", "to": "ek", "payload": 2, "routes": [[["sg", "yh", "lg", "ek"], 1.9999999999999998]]}, "8": {"from": "yh", "to": "rc", "payload": 10.5, "routes": [[["yh", "lg", "mw", "gl", "rc"], 10.5]]}, "9": {"from": "hg", "to": "if", "payload": 10.5, "routes": [[["hg", "mc", "hp", "ux", "if"], 10.5]]}, "10": {"from": "od", "to": "if", "payload": 2, "routes": [[["od", "bw", "yv", "lw", "if"], 0.6000000000000013], [["od", "am", "jm", "if"], 1.3999999999999986]]}, "11": {"from": "am", "to": "gu", "payload": 2, "routes": [[["am", "yk", "cw", "co", "zq", "gu"], 1.9999999999999998]]}, "12": {"from": "wr", "to": "am", "payload": 2, "routes": [[["wr", "gl", "qx", "jm", "am"], 2.0]]}, "13": {"from": "js", "to": "hg", "payload": 25.1, "routes": [[["js", "bs", "ps", "hg"], 20.700000000000006], [["js", "bt", "lg", "yh", "hg"], 4.399999999999996]]}, "14": {"from": "zq", "to": "wz", "payload": 25.1, "routes": [[["zq", "co", "ux", "wz"], 15.100000000000003], [["zq", "js", "wz"], 9.999999999999998]]}, "15": {"from": "co", "to": "jm", "payload": 50.6, "routes": [[["co", "ux", "if", "jm"], 39.5], [["co", "yv", "bw", "od", "am", "jm"], 1.0999999999999974], [["co", "cw", "yk", "jm"], 10.0]]}, "16": {"from": "mc", "to": "co", "payload": 25.1, "routes": [[["mc", "yh", "co"], 25.1]]}, "17": {"from": "hp", "to": "co", "payload": 2, "routes": [[["hp", "ux", "co"], 2.0]]}, "18": {"from": "pm", "to": "wz", "payload": 2, "routes": [[["pm", "co", "ux", "wz"], 1.9999999999999998]]}, "19": {"from": "mr", "to": "dq", "payload": 50.6, "routes": [[["mr", "ek", "js", "bs", "dq"], 0.600000000000005], [["mr", "cf", "bt", "hp", "dq"], 40.0], [["mr", "cf", "bt", "js", "bs", "dq"], 10.0]]}, "20": {"from": "ec", "to": "pm", "payload": 25.1, "routes": [[["ec", "qx", "jm", "if", "pm"], 13.0], [["ec", "qx", "gl", "co", "pm"], 12.1]]}, "21": {"from": "rc", "to": "sv", "payload": 25.1, "routes": [[["rc", "gl", "wr", "sv"], 25.1]]}, "22": {"from": "hp", "to": "qx", "payload": 50.6, "routes": [[["hp", "yv", "bw", "od", "ec", "qx"], 9.899999999999991], [["hp", "bt", "wz", "qx"], 5.0], [["hp", "gl", "qx"], 13.0], [["hp", "ux", "sg", "qx"], 12.700000000000006], [["hp", "ux", "if", "qx"], 10.0]]}, "23": {"from": "jm", "to": "hp", "payload": 50.6, "routes": [[["jm", "qx", "bw", "yv", "hp"], 14.999999999999998], [["jm", "if", "ux", "hp"], 35.6]]}, "24": {"from": "ek", "to": "js", "payload": 10.5, "routes": [[["ek", "js"], 10.5]]}, "25": {"from": "kg", "to": "sg", "payload": 25.1, "routes": [[["kg", "bw", "yh", "sg"], 9.999999999999998], [["kg", "bw", "qx", "sg"], 15.0], [["kg", "mw", "gl", "wr", "sg"], 0.1000000000000007]]}, "26": {"from": "hg", "to": "am", "payload": 10.5, "routes": [[["hg", "yh", "bt", "am"], 10.5]]}, "27": {"from": "zr", "to": "js", "payload": 10.5, "routes": [[["zr", "yh", "bw", "js"], 10.0], [["zr", "yh", "bt", "js"], 0.5000000000000002]]}, "28": {"from": "lw", "to": "gl", "payload": 2, "routes": [[["lw", "yv", "gl"], 1.9999999999999998]]}, "29": {"from": "wr", "to": "dq", "payload": 10.5, "routes": [[["wr", "gl", "dq"], 10.5]]}}
+{
+    "0": {
+        "from": "lw",
+        "to": "cf",
+        "payload": 10.5,
+        "routes": [
+            [
+                [
+                    "lw",
+                    "yv",
+                    "bw",
+                    "js",
+                    "bt",
+                    "cf"
+                ],
+                10.5
+            ]
+        ]
+    },
+    "1": {
+        "from": "ux",
+        "to": "jm",
+        "payload": 10.5,
+        "routes": [
+            [
+                [
+                    "ux",
+                    "if",
+                    "jm"
+                ],
+                10.5
+            ]
+        ]
+    },
+    "2": {
+        "from": "zq",
+        "to": "lw",
+        "payload": 50.6,
+        "routes": [
+            [
+                [
+                    "zq",
+                    "yv",
+                    "lw"
+                ],
+                50.6
+            ]
+        ]
+    },
+    "3": {
+        "from": "dq",
+        "to": "qx",
+        "payload": 25.1,
+        "routes": [
+            [
+                [
+                    "dq",
+                    "hp",
+                    "yv",
+                    "bw",
+                    "qx"
+                ],
+                10.100000000000001
+            ],
+            [
+                [
+                    "dq",
+                    "gl",
+                    "qx"
+                ],
+                15.0
+            ]
+        ]
+    },
+    "4": {
+        "from": "cf",
+        "to": "co",
+        "payload": 50.6,
+        "routes": [
+            [
+                [
+                    "cf",
+                    "mr",
+                    "ek",
+                    "cw",
+                    "co"
+                ],
+                25.6
+            ],
+            [
+                [
+                    "cf",
+                    "mr",
+                    "cw",
+                    "co"
+                ],
+                25.0
+            ]
+        ]
+    },
+    "5": {
+        "from": "pm",
+        "to": "gl",
+        "payload": 10.5,
+        "routes": [
+            [
+                [
+                    "pm",
+                    "co",
+                    "gl"
+                ],
+                10.5
+            ]
+        ]
+    },
+    "6": {
+        "from": "js",
+        "to": "yh",
+        "payload": 50.6,
+        "routes": [
+            [
+                [
+                    "js",
+                    "bw",
+                    "yh"
+                ],
+                10.0
+            ],
+            [
+                [
+                    "js",
+                    "bt",
+                    "yh"
+                ],
+                35.0
+            ],
+            [
+                [
+                    "js",
+                    "bt",
+                    "lg",
+                    "yh"
+                ],
+                5.600000000000005
+            ]
+        ]
+    },
+    "7": {
+        "from": "sg",
+        "to": "ek",
+        "payload": 2,
+        "routes": [
+            [
+                [
+                    "sg",
+                    "yh",
+                    "lg",
+                    "ek"
+                ],
+                2.0
+            ]
+        ]
+    },
+    "8": {
+        "from": "yh",
+        "to": "rc",
+        "payload": 10.5,
+        "routes": [
+            [
+                [
+                    "yh",
+                    "co",
+                    "gl",
+                    "rc"
+                ],
+                7.700000000000004
+            ],
+            [
+                [
+                    "yh",
+                    "lg",
+                    "mw",
+                    "gl",
+                    "rc"
+                ],
+                2.799999999999997
+            ]
+        ]
+    },
+    "9": {
+        "from": "hg",
+        "to": "if",
+        "payload": 10.5,
+        "routes": [
+            [
+                [
+                    "hg",
+                    "mc",
+                    "hp",
+                    "ux",
+                    "if"
+                ],
+                10.5
+            ]
+        ]
+    },
+    "10": {
+        "from": "od",
+        "to": "if",
+        "payload": 2,
+        "routes": [
+            [
+                [
+                    "od",
+                    "bw",
+                    "qx",
+                    "jm",
+                    "if"
+                ],
+                2.0
+            ]
+        ]
+    },
+    "11": {
+        "from": "am",
+        "to": "gu",
+        "payload": 2,
+        "routes": [
+            [
+                [
+                    "am",
+                    "yk",
+                    "cw",
+                    "co",
+                    "zq",
+                    "gu"
+                ],
+                2.0
+            ]
+        ]
+    },
+    "12": {
+        "from": "wr",
+        "to": "am",
+        "payload": 2,
+        "routes": [
+            [
+                [
+                    "wr",
+                    "gl",
+                    "rc",
+                    "yk",
+                    "am"
+                ],
+                2.0
+            ]
+        ]
+    },
+    "13": {
+        "from": "js",
+        "to": "hg",
+        "payload": 25.1,
+        "routes": [
+            [
+                [
+                    "js",
+                    "bs",
+                    "ps",
+                    "hg"
+                ],
+                10.700000000000006
+            ],
+            [
+                [
+                    "js",
+                    "bt",
+                    "lg",
+                    "yh",
+                    "hg"
+                ],
+                14.399999999999995
+            ]
+        ]
+    },
+    "14": {
+        "from": "zq",
+        "to": "wz",
+        "payload": 25.1,
+        "routes": [
+            [
+                [
+                    "zq",
+                    "co",
+                    "ux",
+                    "wz"
+                ],
+                15.100000000000003
+            ],
+            [
+                [
+                    "zq",
+                    "js",
+                    "wz"
+                ],
+                10.0
+            ]
+        ]
+    },
+    "15": {
+        "from": "co",
+        "to": "jm",
+        "payload": 50.6,
+        "routes": [
+            [
+                [
+                    "co",
+                    "ux",
+                    "if",
+                    "jm"
+                ],
+                39.5
+            ],
+            [
+                [
+                    "co",
+                    "yv",
+                    "bw",
+                    "od",
+                    "am",
+                    "jm"
+                ],
+                1.0999999999999974
+            ],
+            [
+                [
+                    "co",
+                    "cw",
+                    "yk",
+                    "jm"
+                ],
+                10.0
+            ]
+        ]
+    },
+    "16": {
+        "from": "mc",
+        "to": "co",
+        "payload": 25.1,
+        "routes": [
+            [
+                [
+                    "mc",
+                    "yh",
+                    "co"
+                ],
+                25.1
+            ]
+        ]
+    },
+    "17": {
+        "from": "hp",
+        "to": "co",
+        "payload": 2,
+        "routes": [
+            [
+                [
+                    "hp",
+                    "ux",
+                    "co"
+                ],
+                2.0
+            ]
+        ]
+    },
+    "18": {
+        "from": "pm",
+        "to": "wz",
+        "payload": 2,
+        "routes": [
+            [
+                [
+                    "pm",
+                    "co",
+                    "ux",
+                    "wz"
+                ],
+                2.0
+            ]
+        ]
+    },
+    "19": {
+        "from": "mr",
+        "to": "dq",
+        "payload": 50.6,
+        "routes": [
+            [
+                [
+                    "mr",
+                    "ek",
+                    "js",
+                    "bs",
+                    "dq"
+                ],
+                0.6000000000000022
+            ],
+            [
+                [
+                    "mr",
+                    "cf",
+                    "bt",
+                    "hp",
+                    "dq"
+                ],
+                39.4
+            ],
+            [
+                [
+                    "mr",
+                    "cf",
+                    "bt",
+                    "js",
+                    "bs",
+                    "dq"
+                ],
+                10.600000000000005
+            ]
+        ]
+    },
+    "20": {
+        "from": "ec",
+        "to": "pm",
+        "payload": 25.1,
+        "routes": [
+            [
+                [
+                    "ec",
+                    "qx",
+                    "jm",
+                    "if",
+                    "pm"
+                ],
+                13.0
+            ],
+            [
+                [
+                    "ec",
+                    "qx",
+                    "gl",
+                    "co",
+                    "pm"
+                ],
+                12.100000000000001
+            ]
+        ]
+    },
+    "21": {
+        "from": "rc",
+        "to": "sv",
+        "payload": 25.1,
+        "routes": [
+            [
+                [
+                    "rc",
+                    "gl",
+                    "wr",
+                    "sv"
+                ],
+                25.1
+            ]
+        ]
+    },
+    "22": {
+        "from": "hp",
+        "to": "qx",
+        "payload": 50.6,
+        "routes": [
+            [
+                [
+                    "hp",
+                    "yv",
+                    "bw",
+                    "od",
+                    "ec",
+                    "qx"
+                ],
+                9.899999999999999
+            ],
+            [
+                [
+                    "hp",
+                    "bt",
+                    "wz",
+                    "qx"
+                ],
+                5.0
+            ],
+            [
+                [
+                    "hp",
+                    "ux",
+                    "sg",
+                    "qx"
+                ],
+                25.7
+            ],
+            [
+                [
+                    "hp",
+                    "ux",
+                    "if",
+                    "qx"
+                ],
+                10.0
+            ]
+        ]
+    },
+    "23": {
+        "from": "jm",
+        "to": "hp",
+        "payload": 50.6,
+        "routes": [
+            [
+                [
+                    "jm",
+                    "qx",
+                    "bw",
+                    "yv",
+                    "hp"
+                ],
+                15.0
+            ],
+            [
+                [
+                    "jm",
+                    "if",
+                    "ux",
+                    "hp"
+                ],
+                35.0
+            ],
+            [
+                [
+                    "jm",
+                    "am",
+                    "bt",
+                    "hp"
+                ],
+                0.6000000000000022
+            ]
+        ]
+    },
+    "24": {
+        "from": "ek",
+        "to": "js",
+        "payload": 10.5,
+        "routes": [
+            [
+                [
+                    "ek",
+                    "js"
+                ],
+                10.5
+            ]
+        ]
+    },
+    "25": {
+        "from": "kg",
+        "to": "sg",
+        "payload": 25.1,
+        "routes": [
+            [
+                [
+                    "kg",
+                    "bw",
+                    "qx",
+                    "sg"
+                ],
+                2.8999999999999986
+            ],
+            [
+                [
+                    "kg",
+                    "mw",
+                    "gl",
+                    "wr",
+                    "sg"
+                ],
+                22.200000000000003
+            ]
+        ]
+    },
+    "26": {
+        "from": "hg",
+        "to": "am",
+        "payload": 10.5,
+        "routes": [
+            [
+                [
+                    "hg",
+                    "yh",
+                    "bt",
+                    "am"
+                ],
+                10.5
+            ]
+        ]
+    },
+    "27": {
+        "from": "zr",
+        "to": "js",
+        "payload": 10.5,
+        "routes": [
+            [
+                [
+                    "zr",
+                    "yh",
+                    "bw",
+                    "js"
+                ],
+                10.0
+            ],
+            [
+                [
+                    "zr",
+                    "yh",
+                    "bt",
+                    "js"
+                ],
+                0.5000000000000001
+            ]
+        ]
+    },
+    "28": {
+        "from": "lw",
+        "to": "gl",
+        "payload": 2,
+        "routes": [
+            [
+                [
+                    "lw",
+                    "yv",
+                    "gl"
+                ],
+                2.0
+            ]
+        ]
+    },
+    "29": {
+        "from": "wr",
+        "to": "dq",
+        "payload": 10.5,
+        "routes": [
+            [
+                [
+                    "wr",
+                    "gl",
+                    "dq"
+                ],
+                10.5
+            ]
+        ]
+    }
+}
