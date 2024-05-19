@@ -28,7 +28,7 @@ Output exported to  - "SrcToAllNodes_ShortestPaths.json"<br />
 ##### d)	Shortest paths between every pair of vertices - graph.shortest_path_all_pairs(export_output = True, show_output = False)<br />
 Output hidden. Please run ""main_sp_part1.py" to see the output of the all pairs shortest paths algorithm.<br />
 Output exported to  - "AllPairs_ShortestPaths.json"<br />
-##### e)	Test runs using randomly generated graphs
+##### e)	Test runs using randomly generated graphs - generate_graph(vertices, edges, show_graph_visual, size = (14,8), export_output= True)
 Random graphs are generated using the generate_graph(vertices, edges, show_graph_visual, size = (14,8), export_output= True) method in the "tools.py" script.<br />
 ![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/7fea9f5e-64ec-463a-86eb-44c8d1989f55) <br />
 The above is an example of a randomly generated graph with 12 vertices and 40 edges. The graph is exported to "RandomlyGenerated_Graph.json"
