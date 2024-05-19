@@ -1,0 +1,11 @@
+Experiment,Agent,Total transit time
+1,Greedy,103806.2
+2,Offline DQN,103773.6
+3,Offline DQN,103517.3
+4,Offline DQN,103303.5
+5,Offline DQN,102162.1
+6,Offline DQN,102716.3
+7,Offline DQN,101920.2
+8,Offline DQN,101920.2
+9,Offline DQN,103196.2
+10,Offline DQN,101937.5

@@ -95,7 +95,7 @@ def build_offline_dataset(graph, iterations = 100, action_agent = RandomAgent(),
     env = CSP_Environment(offline_graph, offline_demands)
     offline_data = []
     for i in range(iterations):
-        print("Offline dataset building, iteration- ", i)
+        print("Offline dataset building, iteration- ", i, " / ", iterations)
         done = False
         env.reset()
         while not done:

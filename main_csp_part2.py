@@ -1,23 +1,22 @@
 import json
-from collections import defaultdict
+import copy
 import sys
-import random
-from collections import deque
-import numpy as np
-from ortools.graph.python import min_cost_flow
-from decimal import *
-from ortools.linear_solver import pywraplp
-from sklearn.neural_network import MLPRegressor
-import pandas as pd
 import pickle
-from datetime import datetime
 import string
+import random
+import numpy as np
+import pandas as pd
 import networkx as nx
+from decimal import *
+from IPython import display
+from collections import deque
+from datetime import datetime
 import matplotlib.pyplot as plt
 from collections import ChainMap
-import matplotlib.pyplot as plt
-from IPython import display
-import copy
+from collections import defaultdict
+from ortools.linear_solver import pywraplp
+from ortools.graph.python import min_cost_flow
+from sklearn.neural_network import MLPRegressor
 
 # importing self built classes and functions
 from agents import GreedyAgent1, RandomAgent, DQNAgent_offline
@@ -38,7 +37,7 @@ graph.add_supply(data_2["demands"])
 
 ##visualise_graph(data_2, size =(14, 8))
 
-print("\nGenerating Routes for given demand using an MILP")
+print("\nGenerating Routes for given demand using MILP")
 graph.generate_routes_csp(show_routes = True, export_output = True)
 print("\n\n\nGenerating Routes for given demand using a greedy sequential demand allocation")
 graph.calculate_flow_greedy(show_output = True, export_output = True)
