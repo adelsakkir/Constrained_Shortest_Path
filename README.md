@@ -46,6 +46,8 @@ The problem is modelled as a sequential demand allocation problem with the objec
 **State** -  The demands that are already allocated and the capacity of the arcs based on the current allocation. <br/>
 **Action** - The next demand to be allocated. <br/>
 **Rewards** - Computed using an LP. We find the optimal routes and flows of a demand given current capacity of the arcs. The objective value of the LP is used as the reward for the state-action pair. <br/>
+
+#### Description of the method
 An offline reinforment learning algorithm is implemented with fitted Q iterations, a batch learning method. We begin by creating a dataset using 100 iterations of the problem and random actions. Each row consists of features of the current state, the next state given the action played and the associated reward, a binary variable indicating whether the next state is terminal and all possible states that can be reached after another action is chosen. With the dataset ready, the learning process begins with initialising a ZeroEstimator that predicts zero values for any inputs. At each iteration, a target value y for each state in the dataset is computed. We use these values to train an MLPestimator - a feedforward artificial neural network - which seeks to approximate the optimal Q-function. Following the training in each iteration, the updated estimator is used to compute the next TD target value. Actions are chosen based on the estimator's predictions, with the best action being the one that leads to a state with the lowest value. <br/>
    
 ![results_picture](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/c4e615d1-5b2d-4c63-8e24-cdc607b0603f)
