@@ -38,7 +38,7 @@ Output exported to  - "AllPairs_ShortestPaths.json"<br />
 ![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/5f585074-0e52-4f20-8be1-f08bfe25cf52)
 This was the instance of the graph provided in "exercise_bonus.json".
 The constrained shortest path problem is solved with linear programming. The "calculate_flow_milp()" method of the graph class creates a LP model for the same using google OR tools. The script "main_csp_part2.py" displays results for two separate methods for the same 
-1. A complete LP approach whose solutions is optimal
+1. A complete LP approach whose solution is optimal
 ![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/f870fc7a-54b1-43de-ac13-07d278f07971)
 This is a screenshot of the partial output of the algorithm. The total transit time comes to - **100954.6**. Each of the remaining below can be read as a demand from node A to node B of payload x is fulfilled through (Route1, Flow1), (Route2, Flow2), etc. The sum of all the flows will equal the total payload of the demand. 
 2. A greedy method by a sequential allocation of demand.
