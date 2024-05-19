@@ -6,6 +6,8 @@ This is a short summary of the solutions for the problems provided in the task, 
 ![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/4f2656e6-d38d-4b58-af17-49229e998a88)
 This was the instance of the graph provided in "exercise_baseline.json". The shortest path algorithms are developed as methods to the Graph object.
 ##### a) Shortest path between any two vertices - graph.shortest_path_source_to_dest(src = 'co', dest = 'wr', export_output = True, show_output = True)
+![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/ef2ac191-916c-493e-a50b-b50ca3412efb)
+
 ##### b)	Shortest paths to a single vertex from every other vertex - graph.shortest_path_dest_from_all_nodes(dest = 'co', export_output = True, show_output = True)
 ##### c)	Shortest path from a single vertex to every other vertex - graph.shortest_path_source_to_all_nodes(src = 'co', export_output = True, show_output = True)
 ##### d)	Shortest paths between every pair of vertices - graph.shortest_path_all_pairs(export_output = True, show_output = False)
