@@ -41,8 +41,8 @@ The constrained shortest path problem is solved with linear programming. The "ca
 1. A complete LP approach whose solution is optimal
 ![image](https://github.com/adelsakkir/maersk_task_adel_sakkir/assets/63802234/f870fc7a-54b1-43de-ac13-07d278f07971)
 This is a screenshot of the partial output of the algorithm. The total transit time comes to - **100954.6**. Each of the remaining below can be read as a demand from node A to node B of payload x is fulfilled through (Route1, Flow1), (Route2, Flow2), etc. The sum of all the flows will equal the total payload of the demand. <br/>
-The output is exported to "MILP_Routes.json"
-3. A greedy method by a sequential allocation of demand.
+The output is exported to "MILP_Routes.json" <br/>
+2. A greedy method by a sequential allocation of demand.
    The greedy methods iterates through each demand and allocates them immediately. Once a demand is allocated, the capacities of the arc used are updated, and a flow for the remaining demands are done in the same fashion. The total transit time comes to - **103806.2**
 
 ## Part 3 - **Reinforcement Learning based shortest paths** - "main_rl_part3.py"
