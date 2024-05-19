@@ -25,6 +25,8 @@ import copy
 ##from tools import generate_graph, visualise_graph, build_offline_dataset, compute_td_target, visualize_loss, print_shortest_path_source_to_all_nodes
 ##from graph_classes import Node, Neighbour, Demand, Arc, Graph
 
+
+#used for shortest path algorithm
 class Heap:
 
     def __init__(self):

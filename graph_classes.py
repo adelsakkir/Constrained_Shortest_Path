@@ -121,7 +121,6 @@ class Graph:
         self.nodeDict[node.id] = node
 
 
-    #Fixed
     def addEdge(self, src, dest, transitTime = None, capacity = None, flow = None, directed = False, arc_id = None):
         
         if not directed:
@@ -188,6 +187,7 @@ class Graph:
         self.V = len(self.nodeDict)
         self.original_arcs = copy.deepcopy(self.arcs)
 
+    # a function to add demands to nodes
     def add_supply(self, demand_dict):
 
         # for each demand - create a new demand object with a demand_id
@@ -488,6 +488,7 @@ class Graph:
 
             
 
+    #a depth first search to generate all simple paths in a digraph
     def DFS(self, temp_graph, start, end):
         if self.visited[temp_graph.nodeDict[start].numeric_id] == True:
             return 
@@ -516,6 +517,7 @@ class Graph:
         return 
 
 
+    # a function to generate routes given the arcs utilised to fulfill demand
     def generate_routes(self, demand):
         """demand.arcs = [(arc1, flow1), (arc2, flow2)]"""
 
@@ -637,28 +639,7 @@ class Graph:
         if export_output:
             with open("AllPairs_ShortestPaths.json",'w') as fi:
                 json.dump(output_main,fi, indent =4)
-        return output_main
-##
-##    def rl_fix_arcs(self):
-##        # a function to remove duplicate arcs from demand.arcs
-##        new_graph = copy.deepcopy(self)
-##
-##        for demand in new_graph.demands.values():
-##            demand.routes = []
-##            new_arcs = []
-##            new_arcs_ids = []
-##            arcs = copy.deepcopy(demand.arcs)
-##            for each_arc, flow in arcs:
-##                print (demand.id, each_arc.id , flow)
-##                if each_arc.id not in new_arcs_ids:
-##                    new_arcs.append((each_arc, flow))
-##                    new_arcs_ids.append(each_arc.id)
-##
-##            demand.arcs = new_arcs
-##            demand.routes = new_graph.generate_routes(demand)
-##
-##        self.demands = copy.deepcopy(new_graph.demands)
-##            
+        return output_main         
 
         
 

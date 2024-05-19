@@ -26,6 +26,7 @@ from environments import State, CSP_Environment
 ##from graph_classes import Node, Neighbour, Demand, Arc, Graph
 from agents import GreedyAgent1, RandomAgent, DQNAgent_offline
 
+#function to generate a random graph
 def generate_graph(vertices, edges, show_graph_visual = True, size = (14,8), export_output= False):
     if edges < vertices -1 or edges > ((vertices)*(vertices - 1))/2: #tree criteria and complete graph criteria
         print("""Cannot generate a coneected graph with given input parameters!!\nPlease ensure that the number of edges is atleast number vertices - 1""")
@@ -83,6 +84,7 @@ def visualise_graph(graph_data, size = (14,8)):
     nx.draw(g, node_color="#33FF39", with_labels =True)
     plt.show()
 
+#a function to generate an offline dataset based on random actions for the RL agent 
 def build_offline_dataset(graph, iterations = 100, action_agent = RandomAgent(), hide_output = True):
     
     #Reseting to original parameters
@@ -149,6 +151,7 @@ def build_offline_dataset(graph, iterations = 100, action_agent = RandomAgent(),
     return pd.DataFrame(offline_data, columns=["state", "reward", "next_state", "is_terminal", "possible_next_states"])
 
 
+#a function to compute td-target for the RL agent 
 def compute_td_target(next_state, reward, is_terminal, discount_factor, estimator, possible_states):
     if is_terminal:
         return reward
@@ -173,7 +176,7 @@ def visualize_loss(loss_values):
     plt.ylim(ymin=0)
     plt.show(block=False)
 
-
+# a helper function to print the shortest paths
 def print_shortest_path_source_to_all_nodes(nodeDict, constant, vertex = "Destination"):
     print ("Source\tDestination\tTransit Time\t Shortest Path")
     for node in nodeDict.values():

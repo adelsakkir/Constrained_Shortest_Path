@@ -25,6 +25,7 @@ import copy
 ##from tools import generate_graph, visualise_graph, build_offline_dataset, compute_td_target, visualize_loss, print_shortest_path_source_to_all_nodes
 ##from graph_classes import Node, Neighbour, Demand, Arc, Graph
 
+
 class State:
     def __init__(self, demands_fulfilled, demands_unfulfilled, temp_graph):
         self.demands_fulfilled = demands_fulfilled  #dict of demands fulfilled
@@ -47,6 +48,7 @@ class State:
             demands_fulfilled_id.append(demand.id)
         return (demands_fulfilled_id)
 
+# A RL environment for the agent to interact with
 class CSP_Environment:
     def __init__(self, graph, demands):
         self.graph = graph
