@@ -35,7 +35,7 @@ for edge in data_2["edges"]:
 
 graph.add_supply(data_2["demands"])
 
-##visualise_graph(data_2, size =(14, 8))
+visualise_graph(data_2, size =(14, 8))
 
 print("\nGenerating Routes for given demand using MILP")
 graph.generate_routes_csp(show_routes = True, export_output = True)
