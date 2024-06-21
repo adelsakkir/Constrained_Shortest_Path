@@ -1,4 +1,4 @@
-Constrained Shortest Path/ Multi-commodity Flow
+# Constrained Shortest Path/ Multi-commodity Flow
 
 This is a short summary of the solutions for the problems provided in the task, instructions to run files and results obtained. The problem is solved through the implementation of the following scripts - 
 1. tools.py
