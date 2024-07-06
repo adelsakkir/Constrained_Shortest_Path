@@ -1,6 +1,12 @@
 # Constrained Shortest Path/ Multi-commodity Flow
+### Problem Definition
+Define G = (V, E) as a bidirectional graph with vertices v ∈ V, and weighted edges e ∈ E
 
-This is a short summary of the solutions for the problems provided in the task, instructions to run files and results obtained. The problem is solved through the implementation of the following scripts - 
+1.	Shortest-Path: Generate optimal routes and transit times between pair of vertices. 
+2.	Constrained Shortest-Path: Given a list of demands, as well as capacities on the edges. A demand being a commodity described by origin node, destination node, and payload. Develop a shortest-path algorithm that minimizes transit time for all demands, while accounting for edge capacities. Note that demands can be split and transported across multiple routes. 
+3.	Reinforcement Learning: Provide an alternative version of the constrained-shortest path algorithm using reinforcement learning.
+
+The problem is solved through the implementation of the following scripts - 
 1. tools.py
 2. graph_classes.py
 3. agents.py
